@@ -19,28 +19,30 @@
           Best & Cheapest SMM Pannels
         </h1>
         <!-- Form Section -->
-        <div class="w-full rounded-xl bg-white p-5">
+        <div class="w-full rounded-xl bg-white p-5 md:w-1/2">
           <form action="" method="post">
             <!-- First-Row -->
-            <div class="mb-2 flex flex-col gap-1">
-              <label for="username">Username</label>
-              <input class="h-10 rounded-md bg-[#EEEEEE]" type="text" />
-            </div>
-            <div class="mb-2 flex flex-col gap-1">
-              <label for="password">Password</label>
-              <input
-                class="h-10 rounded-md bg-[#EEEEEE]"
-                type="password"
-                name="password"
-                id="password"
-              />
+            <div class="md:flex md:gap-4">
+              <div class="mb-2 flex flex-col gap-1 md:w-3/6">
+                <label for="username">Username</label>
+                <input class="h-10 rounded-md bg-[#EEEEEE]" type="text" />
+              </div>
+              <div class="mb-2 flex flex-col gap-1 md:w-3/6">
+                <label for="password">Password</label>
+                <input
+                  class="h-10 rounded-md bg-[#EEEEEE]"
+                  type="password"
+                  name="password"
+                  id="password"
+                />
+              </div>
             </div>
             <!-- Second-Row -->
-            <div class="mb-2 flex justify-between">
-              <div>
+            <div class="mb-2 flex justify-between gap-4">
+              <div class="md:w-2/4">
                 <input type="checkbox" name="remember" id="remember" /> Remember
               </div>
-              <div>
+              <div class="md:w-2/4">
                 <a href="#" class="text-blue-500 hover:underline"
                   >Forgot password?</a
                 >
@@ -59,9 +61,9 @@
         </div>
       </section>
       <!-- Branding Section -->
-      <section class="mb-16">
+      <section class="mb-16 md:flex md:flex-col md:items-center">
         <img width="300" src="images/Logo.svg" alt="large-logo" />
-        <p class="mt-6 text-sm text-white">
+        <p class="mt-6 text-sm text-white md:w-3/5">
           Social Media Marketing (SMM) leverages platforms like Instagram,
           Facebook, Twitter, YouTube, and others to enhance your personal or
           business visibility. If you're seeking to amplify your digital
@@ -70,7 +72,56 @@
           platforms, all at highly competitive prices.
         </p>
       </section>
-      <section></section>
+      <!-- Instruction Section -->
+      <section>
+        <div class="mb-16 flex flex-col items-center gap-4">
+          <h2 class="text-3xl font-bold text-white">Where to begin?</h2>
+          <p class="text-center text-sm text-white">
+            Looking to begin making orders through our panel? Just adhere to
+            these four simple steps.
+          </p>
+        </div>
+        <!-- Cards -->
+        <div
+          class="mb-16 flex flex-col items-center gap-7 rounded-xl bg-white p-7 md:mx-auto md:w-5/12 md:flex-row"
+        >
+          <div class="mt-3 text-2xl font-extrabold md:mt-0">1</div>
+          <div class="flex flex-col items-center gap-1 text-center text-sm">
+            <span class="font-bold">Sign up</span>Register into our panel, fill
+            in all the necessary data and get ready to be famous.
+          </div>
+        </div>
+        <div
+          class="mb-16 flex flex-col items-center gap-7 rounded-xl bg-white p-7 md:mx-auto md:w-5/12 md:flex-row"
+        >
+          <div class="mt-3 text-2xl font-extrabold md:mt-0">2</div>
+          <div class="flex flex-col items-center gap-1 text-center text-sm">
+            <span class="font-bold">Add funds</span>Add money to your SMM
+            account and be ready to rise like a star and give your business a
+            new height.
+          </div>
+        </div>
+        <div
+          class="mb-16 flex flex-col items-center gap-7 rounded-xl bg-white p-7 md:mx-auto md:w-5/12 md:flex-row"
+        >
+          <div class="mt-3 text-2xl font-extrabold md:mt-0">3</div>
+          <div class="flex flex-col items-center gap-1 text-center text-sm">
+            <span class="font-bold">Choose service</span>Select a service and
+            place an order and get ready to start receiving more publicity on
+            social media.
+          </div>
+        </div>
+        <div
+          class="mb-16 flex flex-col items-center gap-7 rounded-xl bg-white p-7 md:mx-auto md:w-5/12 md:flex-row"
+        >
+          <div class="mt-3 text-2xl font-extrabold md:mt-0">4</div>
+          <div class="flex flex-col items-center gap-1 text-center text-sm">
+            <span class="font-bold">Enjoy popularity</span>We will create and
+            proceed with an order and inform you once done. Enjoy and stay with
+            us.
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
